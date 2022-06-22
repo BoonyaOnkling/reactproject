@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
       },
     
       warning:{
-        color: 'red'
+        color: 'blue'
       }
 });
 
