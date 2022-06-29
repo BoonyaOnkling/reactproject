@@ -9,9 +9,9 @@ const Logo = () => {
       <Text style={styles.TextLogo}>TNI</Text>
       <Text>{textLogo}</Text>
       {/* if */}
-      {
+      {/* {
         isTH && <Text>ภาษาไทย</Text> 
-      }
+      } */}
       {/* *********************************/}
       {/* ifelse  */}
       {
@@ -27,7 +27,7 @@ export default Logo
 
 const styles = StyleSheet.create({
     TextLogo:{
-        color:"Blue",
+        color:"#CD5C5C",
         fontSize:60
     }
 })
