@@ -1,35 +1,32 @@
-import { StyleSheet, Text, View, } from "react-native";
-import React from "react";
-import Logo from "./components/Logo";
-import Stysheet from "./components/Stysheet";
+import { StyleSheet, Text, View,Button } from 'react-native'
+import React from 'react'
 
-
-
+const showData=() => {
+  alert("Hello")
+}
 const App = () => {
   return (
-    <View style={styles.container}>
-      {/* <Text style={[styles.title,styles.warning]}>HELLO React Native</Text>
-      <Logo /> */}
-      <Stysheet/>
+    <View style={styles.continue}>
+      <Text>Button Example</Text>
+      <Button
+        title="CLICK ME"
+        color='#990099'
+        onPress={showData}
+      />
     </View>
-  );
-};
+  )
+}
 
-export default App;
+export default App
 
 const styles = StyleSheet.create({
-  container: {
+  continue: {
     flex: 1,
-    justifyContent: 'center',
-    alignContent: 'center'
-  },
-  title: {
-    fontSize: 20,
-  },
-  warning: {
-    color: 'red'
+    alignItems: 'center',
+    justifyContent: 'center'
   }
-});
+})
+
 
 
 
