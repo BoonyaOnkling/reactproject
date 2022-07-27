@@ -9,10 +9,12 @@ import InputText from './components/inputText'
 import UserNameandPassWord from './components/UserNameandPassWord'
 import Touchable_Example from './components/Touchable_Example'
 import TouchablePractice from './components/TouchablePractice'
+import DynamicStyle from './components/DynamicStyle'
+import ModelExample from './components/ModelExample'
 
 const App = () => {
   return (
-    <View>
+    <View style={styles.container}>
       {/* <Logo/> */}
       {/* <User/> */}
       {/* <LotsOfGreetings/> */}
@@ -21,7 +23,9 @@ const App = () => {
       {/* <InputText/> */}
       {/* <UserNameandPassWord/> */}
       {/* <Touchable_Example/> */}
-      <TouchablePractice/>
+      {/* <TouchablePractice/> */}
+      {/* <DynamicStyle/> */}
+      <ModelExample/>
     </View>
   )
 }
