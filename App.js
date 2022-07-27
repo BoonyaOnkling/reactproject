@@ -7,6 +7,8 @@ import MyCustomTextWith from './components/MyCustomTextWith'
 import Count from './components/Count'
 import InputText from './components/inputText'
 import UserNameandPassWord from './components/UserNameandPassWord'
+import Touchable_Example from './components/Touchable_Example'
+import TouchablePractice from './components/TouchablePractice'
 
 const App = () => {
   return (
@@ -17,7 +19,9 @@ const App = () => {
       {/* <MyCustomTextWith/> */}
       {/* <Count/> */}
       {/* <InputText/> */}
-      <UserNameandPassWord/>
+      {/* <UserNameandPassWord/> */}
+      {/* <Touchable_Example/> */}
+      <TouchablePractice/>
     </View>
   )
 }
